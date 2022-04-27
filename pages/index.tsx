@@ -1,9 +1,9 @@
-import '../styles/home.scss';
+
 
 export default function Home() {
   return (
       <div>
-        123
+      123132132131
       </div>
 
   )
