@@ -8,5 +8,12 @@
         background: url('/bg/screen_1_bg.jpg') center no-repeat no-repeat;
         background-size: cover;
     }
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    align-items: center;
+    gap: 2.2857rem;
 
 }

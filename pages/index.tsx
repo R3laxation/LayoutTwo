@@ -10,7 +10,7 @@ export default function Home() {
   return (
       <div>
         <section className={cl(styles.section, styles.sectionMain)}>
-            <header>
+            <header className={styles.header}>
                 <Logo/>
                 <SocialNetworks/>
                 <Button onClick={() => {}}>Whitepaper</Button>
