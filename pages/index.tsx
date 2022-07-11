@@ -20,7 +20,7 @@ export default function Home() {
                 <Navigation/>
                 <div>
                     <Title>From dust to dawn</Title>
-                    <ul>
+                    <ul className={styles.buttonList}>
                         <li><Button onClick={() => {
                         }}>Mint</Button></li>
                         <li><Button onClick={() => {

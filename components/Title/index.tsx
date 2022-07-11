@@ -3,11 +3,11 @@ import styles from './style.module.scss';
 import cl from "classnames";
 
 interface TitleProps {
-    size?: 'medium' | 'large',
+    size?: 'Medium' | 'Large',
     children: ReactNode,
 }
 
-export const Title: React.FC<TitleProps> = ({size='medium', children}) => {
+export const Title: React.FC<TitleProps> = ({size='Medium', children}) => {
     return(
         <h2 className={cl(styles.title, styles[`title${size}`])}>{children}</h2>
     )
