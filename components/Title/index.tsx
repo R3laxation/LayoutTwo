@@ -11,6 +11,5 @@ export const Title: React.FC<TitleProps> = ({size='medium', children}) => {
     return(
         <h2 className={cl(styles.title, styles[`title${size}`])}>{children}</h2>
     )
-
 };
 
