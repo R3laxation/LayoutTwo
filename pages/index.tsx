@@ -1,5 +1,6 @@
 import styles from '../styles/home.module.scss';
 import cl from 'classnames';
+import { Logo } from '../components/Logo';
 
 export default function Home() {
   return (
