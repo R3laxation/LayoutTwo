@@ -6,9 +6,7 @@ interface NavigationProps {}
 export const Navigation: React.FC<NavigationProps> = ({}) => {
     return (
         <div>
-            <ul>
-                <li></li>
-            </ul>
+            Navigation
         </div>
     );
 };
