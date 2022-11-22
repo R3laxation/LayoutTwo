@@ -1,6 +1,7 @@
 import styles from '../styles/home.module.scss';
 import cl from 'classnames';
 import { Logo } from '../components/Logo';
+import {SocialNetworks} from "../components/SocialNetworks";
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
         <section className={cl(styles.section, styles.sectionMain)}>
             <header>
                 <Logo/>
-                {/*<SocialNetworks/>*/}
+                <SocialNetworks/>
                 {/*<Button onClick={() => {}}>Whitepaper</Button>*/}
             </header>
         {/*   <Navigation/>*/}
