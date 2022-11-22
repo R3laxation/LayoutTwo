@@ -13,6 +13,8 @@
     width: 1.7rem;
     height: 1.7rem;
     background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% auto;
 
     &:hover,
     &:visited {
@@ -26,6 +28,7 @@
 
   &Twitter {
     background-image: url('./images/twitter_icon.svg');
+    background-size: 90% auto;
   }
 
   &AntDesign {
