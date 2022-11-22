@@ -1,5 +1,5 @@
 import React, {ReactNode} from 'react';
-import style from './style.module.scss';
+import styles from './style.module.scss';
 import cl from "classnames";
 
 interface TitleProps {
@@ -9,7 +9,7 @@ interface TitleProps {
 
 export const Title: React.FC<TitleProps> = ({size='medium', children}) => {
     return(
-        <h2>{children}</h2>
+        <h2 className={cl(styles.title, styles[`title${size}`])}>{children}</h2>
     )
 
 };
