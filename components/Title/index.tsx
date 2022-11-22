@@ -1,15 +1,13 @@
-import React from 'react';
+import React, {ReactNode} from 'react';
 import style from './style.module.scss';
 
-interface TitleProps {}
+interface TitleProps {
+    children: ReactNode[],
+}
 
-export const Title = ({}) => {
+export const Title: React.FC<TitleProps> = ({children}) => {
     return (
-        <div>
-            <ul>
-                <li></li>
-            </ul>
-        </div>
+            <h2>{children}</h2>
     );
 };
 
