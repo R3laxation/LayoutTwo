@@ -1,0 +1,36 @@
+.socialNetworks {
+  display: flex;
+  gap: 2.4rem;
+
+  &Item {
+
+  }
+
+  &Link {
+    color: white;
+    text-indent: -1234em;
+    display: inline-block;
+    width: 1.7rem;
+    height: 1.7rem;
+    background-repeat: no-repeat;
+
+    &:hover,
+    &:visited {
+      color: white;
+    }
+  }
+
+  &Discord {
+    background-image: url('./images/game_icon.svg');
+  }
+
+  &Twitter {
+    background-image: url('./images/twitter_icon.svg');
+  }
+
+  &AntDesign {
+    background-image: url('./images/ant-design-icon.svg');
+  }
+
+
+}

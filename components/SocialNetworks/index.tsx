@@ -8,7 +8,7 @@ interface SocialNetworksProps {
 const socialNetworks = [
     {id: 1, title: 'Discord', className: 'Discord', link: 'https://discord.com/'},
     {id: 2, title: 'Twitter', className: 'Twitter', link: 'https://twitter.com/'},
-    {id: 3, title: 'AndDesign', className: 'AndDesign', link: 'https://ant.design/'},
+    {id: 3, title: 'AntDesign', className: 'AntDesign', link: 'https://ant.design/'},
 ];
 
 export const SocialNetworks: React.FC<SocialNetworksProps> = ({}) => {
@@ -20,10 +20,10 @@ export const SocialNetworks: React.FC<SocialNetworksProps> = ({}) => {
                         href={socialNetwork.link}
                         target={'_blank'}
                         rel={'noreferrer'}
-                        className={cl(styles.socialNetworksItemLink, styles[`socialNetworks${socialNetwork.className}`])}
+                        className={cl(styles.socialNetworksLink, styles[`socialNetworks${socialNetwork.className}`])}
                     >{socialNetwork.title}</a>
                 </li>
-            ))};
+            ))}
         </ul>
     );
 };
