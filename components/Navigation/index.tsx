@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './style.module.scss';
+import styles from './style.module.scss';
 
 interface NavigationProps {}
 

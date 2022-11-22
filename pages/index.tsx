@@ -6,8 +6,6 @@ import {Button} from "../components/Button";
 import {Navigation} from "../components/Navigation";
 import {Title} from "../components/Title";
 
-
-
 export default function Home() {
   return (
       <div>
@@ -24,7 +22,6 @@ export default function Home() {
               <ul>
                   <li><Button onClick={() => {}}>Mint</Button></li>
                   <li><Button onClick={() => {}}>Connect Wallet</Button></li>
-
               </ul>
           </div>
       </div>
