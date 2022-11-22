@@ -2,6 +2,8 @@ import styles from '../styles/home.module.scss';
 import cl from 'classnames';
 import { Logo } from '../components/Logo';
 import {SocialNetworks} from "../components/SocialNetworks";
+import {Button} from "../components/Button";
+import {Navigation} from "../components/Navigation";
 
 
 
@@ -12,9 +14,9 @@ export default function Home() {
             <header>
                 <Logo/>
                 <SocialNetworks/>
-                {/*<Button onClick={() => {}}>Whitepaper</Button>*/}
+                <Button onClick={() => {}}>Whitepaper</Button>
             </header>
-        {/*   <Navigation/>*/}
+           <Navigation/>
         </section>
         {/*  <div>*/}
         {/*      <Title type={'h2'}>From dust to dawn</Title>*/}
