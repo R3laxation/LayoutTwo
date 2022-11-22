@@ -3,6 +3,8 @@ import cl from 'classnames';
 import { Logo } from '../components/Logo';
 import {SocialNetworks} from "../components/SocialNetworks";
 
+
+
 export default function Home() {
   return (
       <div>
