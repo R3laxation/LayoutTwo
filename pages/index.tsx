@@ -4,6 +4,7 @@ import { Logo } from '../components/Logo';
 import {SocialNetworks} from "../components/SocialNetworks";
 import {Button} from "../components/Button";
 import {Navigation} from "../components/Navigation";
+import {Title} from "../components/Title";
 
 
 
@@ -18,14 +19,14 @@ export default function Home() {
             </header>
            <Navigation/>
         </section>
-        {/*  <div>*/}
-        {/*      <Title type={'h2'}>From dust to dawn</Title>*/}
-        {/*      <ul>*/}
-        {/*          <li><Button onClick={() => {}}>Mint</Button></li>*/}
-        {/*          <li><Button onClick={() => {}}>Connect Wallet</Button></li>*/}
+          <div>
+              <Title>From dust to dawn</Title>
+              <ul>
+                  <li><Button onClick={() => {}}>Mint</Button></li>
+                  <li><Button onClick={() => {}}>Connect Wallet</Button></li>
 
-        {/*      </ul>*/}
-        {/*  </div>*/}
+              </ul>
+          </div>
       </div>
 
   )
