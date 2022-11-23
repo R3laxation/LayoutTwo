@@ -5,4 +5,10 @@
   box-shadow: none;
   color: white;
   padding: 1.4286rem 1.7857rem 1.1429rem;
+  transition: all 0.3s;
+
+  &:hover {
+    background: white;
+    color: black;
+  }
 }
